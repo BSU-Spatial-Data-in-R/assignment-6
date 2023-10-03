@@ -29,4 +29,8 @@ You'll need to accept the link to access the questions.
 
 
 ## The Assignment
-We want to begin to assess the role of distance from schools in determining the education outcomes for Idahoans. We'll use the `landmarks_pnw.csv` dataset as the basis for this assignment. You'll need to load the data and convert it to an `sf` object. 
+We want to begin to assess the role of distance from schools in determining the education outcomes for Idahoans. We'll use the `landmarks_pnw.csv` and `cejst_pnw.shp` datasets as the basis for this assignment. You'll need to load the csv and convert it to an `sf` object. We want to compare the percentage of individuals age 25 or over with less than a high school degree (`IAHSEF` in the cejst dataset) for of counties within 50km of a school (`MTFCC == K2543`) to those that are more than 50km. You'll need to follow many of the same operations in the video example from class. Your assignment is:
+1. Write out the pseudocode for your analysis
+2. Translate the pseudocode into code chunks and create the necessary code (You'll need to use things like `st_distance`, `st_buffer`, `st_sym_difference`)
+3. Make a map for both the percentage of individuals with less than a high school degree in counties within 50km and beyond 50km (i.e. make 2 maps)
+   
